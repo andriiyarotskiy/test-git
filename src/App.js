@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          YO
+          Say hello Ignat
         </a>
       </header>
     </div>
