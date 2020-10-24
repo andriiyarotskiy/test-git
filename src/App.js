@@ -19,9 +19,7 @@ function App() {
           Say hello Ignat
         </a>
       </header>
-
-
-      <h2>commit 2</h2>
+        "q"
     </div>
   );
 }
