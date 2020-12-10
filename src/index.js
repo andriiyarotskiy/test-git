@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import firebase from 'firebase';
+
+
+
+const firebaseConfig = {
+    apiKey: "AIzaSyBE-jGrV8VuW-7dzTIvFWpG640F4ZIQcpk",
+    authDomain: "training-react-test-auth.firebaseapp.com",
+    databaseURL: "https://training-react-test-auth-default-rtdb.firebaseio.com",
+    projectId: "training-react-test-auth",
+    storageBucket: "training-react-test-auth.appspot.com",
+    messagingSenderId: "924794861461",
+    appId: "1:924794861461:web:a8538064328e200ccfe89c"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App/>,
+    document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
