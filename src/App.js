@@ -1,7 +1,5 @@
-import React, {createContext, useEffect, useState} from 'react';
-import Main from "./Main";
-import Alert from "./alert/Alert";
-import AlertProvider from "./alert/AlertContext";
+import React, {useEffect, useState} from 'react';
+import Auth from "./Auth/Auth";
 
 
 const useLogger = (value) => {
@@ -45,6 +43,12 @@ function App() {
                 <hr/>
                 <h1>{input.value}</h1>
             </div>
+            <hr/>
+            <h1>Авторизация с помощью гугла</h1>
+            <Auth>
+                <div>авторизован</div>
+                <div>не авторизован!!!</div>
+            </Auth>
         </>
 
     );
