@@ -5,13 +5,22 @@ import AlertProvider from "./alert/AlertContext";
 
 
 function App() {
+
     return (
-        <AlertProvider>
+        <>
+            {/*<AlertProvider>
+                <div className="container pt-3">
+                    <Alert/>
+                    <Main toggle={() => {
+                    }}/>
+                </div>
+            </AlertProvider>*/}
             <div className="container pt-3">
-                <Alert/>
-                <Main toggle={() => {}}/>
+
+                <input type="text"/>
             </div>
-        </AlertProvider>
+        </>
+
     );
 }
 
