@@ -4,7 +4,7 @@ import Auth from "./Auth/Auth";
 
 const useLogger = (value) => {
     useEffect(() => {
-        console.log('Value changed', value)
+        // console.log('Value changed', value)
     }, [value])
 }
 const useInput = (initialValue) => {

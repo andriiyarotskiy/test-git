@@ -14,16 +14,16 @@ const Auth = () => {
         }, [])
 
         const responseGoogle = (response) => {
-            console.log(response.profileObj.name)
-            setIsAuth({
-                ...state,
-                name: response.profileObj.name,
-                accessToken: response.accessToken,
-                isAuth: true
-            })
+            if(response){
+                setIsAuth({
+                    ...state,
+                    name: response.profileObj.name,
+                    accessToken: response.accessToken,
+                    isAuth: true
+                })
+            }
         }
         const logout = (response) => {
-            console.log(response)
             setIsAuth({...state, isAuth: false, accessToken: ''})
         }
         const handleLogoutFailure = (response) => {
@@ -42,7 +42,7 @@ const Auth = () => {
                                  responseType='code,token'
                     />
                     : <div>
-                        <h1>{state.name}</h1>
+                        <h1>{state.name ? state.name : null}</h1>
                         <GoogleLogout
                             clientId={"345999559557-l0djs7ot59j8914n1bp4mvkn08odsp4n.apps.googleusercontent.com"}
                             buttonText={'Logout'}
