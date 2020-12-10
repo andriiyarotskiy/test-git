@@ -4,3 +4,8 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 .idea/
+/codeStyles/codeStyleConfig.xml
+/misc.xml
+/modules.xml
+/test-git.iml
+/vcs.xml
