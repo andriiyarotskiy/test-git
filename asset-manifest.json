@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/test-git/static/js/main.b68bcf4f.chunk.js",
-    "main.js.map": "/test-git/static/js/main.b68bcf4f.chunk.js.map",
+    "main.js": "/test-git/static/js/main.e96986f8.chunk.js",
+    "main.js.map": "/test-git/static/js/main.e96986f8.chunk.js.map",
     "runtime-main.js": "/test-git/static/js/runtime-main.7cb82ff1.js",
     "runtime-main.js.map": "/test-git/static/js/runtime-main.7cb82ff1.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/test-git/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.5e0de0b0.chunk.js": "/test-git/static/js/2.5e0de0b0.chunk.js",
-    "static/js/2.5e0de0b0.chunk.js.map": "/test-git/static/js/2.5e0de0b0.chunk.js.map",
+    "static/js/2.757c91c4.chunk.js": "/test-git/static/js/2.757c91c4.chunk.js",
+    "static/js/2.757c91c4.chunk.js.map": "/test-git/static/js/2.757c91c4.chunk.js.map",
     "index.html": "/test-git/index.html",
-    "precache-manifest.c9bba7f16cdce8d3fe74d68d2708f8e7.js": "/test-git/precache-manifest.c9bba7f16cdce8d3fe74d68d2708f8e7.js",
+    "precache-manifest.5876a5b7fa6f4ad8e7580bc9cebfd93d.js": "/test-git/precache-manifest.5876a5b7fa6f4ad8e7580bc9cebfd93d.js",
     "service-worker.js": "/test-git/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/test-git/static/css/2.3cf5d70f.chunk.css.map",
-    "static/js/2.5e0de0b0.chunk.js.LICENSE.txt": "/test-git/static/js/2.5e0de0b0.chunk.js.LICENSE.txt"
+    "static/js/2.757c91c4.chunk.js.LICENSE.txt": "/test-git/static/js/2.757c91c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7cb82ff1.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.5e0de0b0.chunk.js",
-    "static/js/main.b68bcf4f.chunk.js"
+    "static/js/2.757c91c4.chunk.js",
+    "static/js/main.e96986f8.chunk.js"
   ]
 }
