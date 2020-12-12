@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import Auth from "./Auth/Auth";
+import LogoutHooks from "./Auth/login_logout_hooks/LogoutHooks";
+import LoginHooks from "./Auth/login_logout_hooks/LoginHooks";
 
 
 const useLogger = (value) => {
@@ -23,6 +24,7 @@ const useInput = (initialValue) => {
     }
 }
 
+
 function App() {
 
     const input = useInput('')
@@ -45,9 +47,10 @@ function App() {
             </div>
             <hr/>
             <h1>Авторизация с помощью гугла</h1>
-            <Auth>
-                <div>авторизован</div>
-            </Auth>
+            <div>
+                <LoginHooks/>
+                <LogoutHooks/>
+            </div>
         </>
 
     );

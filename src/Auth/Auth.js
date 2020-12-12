@@ -33,7 +33,8 @@ const Auth = ({children}) => {
                 ...state,
                 name: response.name,
                 isAuth: true,
-                img: response.picture.data.url
+                img: response.picture.data.url,
+                accessToken: response.accessToken
             })
         }
 
@@ -53,14 +54,15 @@ const Auth = ({children}) => {
                                         }/>
                         <div>
                             <FacebookLogin
+
                                 appId="399813427801800"
                                 autoLoad={false}
                                 fields="name,email,picture"
-                                callback={responseFacebook}/>
+                                callback={responseFacebook}
+                                size="small"
+                            />
                         </div>
-
                     </div>
-
                     : <div>
                         <h1>{state.name ? state.name : null}</h1>
                         <img src={state.img} alt="ava"/>
@@ -71,6 +73,7 @@ const Auth = ({children}) => {
                             onLogoutSuccess={logout}
                             onFailure={handleLogoutFailure}
                         />
+                        <button className={"btn btn-dark"}>log out FB</button>
                     </div>}
                 {state.accessToken && <span> token : {state.accessToken}</span>}
             </div>
