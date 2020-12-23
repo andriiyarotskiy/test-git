@@ -1,6 +1,6 @@
 import React from 'react';
 import {useGoogleLogout} from "react-google-login";
-import google_icon from "../google_icon_131222.svg";
+import google_icon from "../../../../../mini-shop/src/assets/google_icon_131222.svg";
 import {clientId} from "./LoginHooks";
 
 const LogoutHooks = () => {

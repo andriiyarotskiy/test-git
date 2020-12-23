@@ -1,7 +1,7 @@
 import React from 'react';
 import {refreshTokenSetup} from "../utils/refreshToken";
 import {useGoogleLogin} from "react-google-login";
-import google_icon from "../google_icon_131222.svg";
+import google_icon from "../../../../../mini-shop/src/assets/google_icon_131222.svg";
 
 
 
